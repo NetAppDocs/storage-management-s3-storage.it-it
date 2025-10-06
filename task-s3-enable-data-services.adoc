@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task-s3-enable-data-services.html 
+keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, 
+summary: Dopo aver individuato i bucket S3 nella console NetApp , puoi utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli, la classificazione e la sincronizzazione dei dati. 
+---
+= Utilizzare i servizi dati NetApp con i bucket S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dopo aver individuato i bucket S3 nella console NetApp , puoi utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli, la classificazione e la sincronizzazione dei dati.
+
+* Utilizza * NetApp Backup and Recovery* per eseguire il backup dei dati dai tuoi sistemi ONTAP locali e Cloud Volumes ONTAP nello storage di oggetti S3.
++
+Per iniziare, vai alla pagina Sistemi e trascina un sistema ONTAP locale o Cloud Volumes ONTAP sul tuo sistema Amazon S3.
+
++
+https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["Scopri di più sul backup dei dati ONTAP nello storage Amazon S3"^] .
+
+* Utilizzare * NetApp Cloud Tiering* per suddividere in livelli i dati inattivi dai cluster ONTAP locali allo storage di oggetti S3.
++
+Per iniziare, vai alla pagina Sistemi e trascina un sistema ONTAP locale sul tuo sistema Amazon S3.
+
++
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-aws.html["Scopri di più sulla suddivisione in livelli dei dati ONTAP nello storage Amazon S3"^] .
+
+* Utilizzare * NetApp Copy and Sync* per sincronizzare i dati da o verso i bucket S3.
++
+Per iniziare, vai alla pagina Sistemi e trascina il sistema sorgente sul sistema di destinazione.  Il sistema Amazon S3 può essere sia l'origine che la destinazione.
+
++
+Puoi anche selezionare il tuo sistema Amazon S3 e fare clic su *Copia e sincronizza* dal pannello Servizi per sincronizzare i dati da o verso i bucket S3.
+
+
+
+https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["Scopri di più sul servizio NetApp Copy and Sync"^] .
+
+* Utilizza * NetApp Data Classification* per analizzare i tuoi bucket S3 alla ricerca di dati personali e sensibili.  NetApp Data Classification può analizzare qualsiasi bucket nell'account, indipendentemente dal fatto che sia stato creato per una soluzione NetApp .
++
+Per iniziare, seleziona il tuo sistema Amazon S3 e seleziona l'opzione appropriata dalla sezione *Classificazione* del pannello Servizi per avviare la scansione dei tuoi bucket S3.
+
++
+https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["Scopri di più sul servizio NetApp Data Classification"^] .
+
+

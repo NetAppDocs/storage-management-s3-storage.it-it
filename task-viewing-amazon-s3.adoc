@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system 
+summary: 'Dopo aver installato un agente Console in AWS, NetApp Console può rilevare automaticamente informazioni sui bucket Amazon S3 che risiedono nell"account AWS in cui è installato l"agente Console.  Un sistema Amazon S3 viene aggiunto alla pagina Sistemi, così puoi visualizzare queste informazioni.' 
+---
+= Visualizzazione dei bucket Amazon S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dopo aver installato un agente Console in AWS, NetApp Console può rilevare automaticamente informazioni sui bucket Amazon S3 che risiedono nell'account AWS in cui è installato l'agente Console.  Un sistema Amazon S3 viene aggiunto alla pagina Sistemi, così puoi visualizzare queste informazioni.
+
+Puoi visualizzare i dettagli sui tuoi bucket S3, tra cui la regione, i criteri di accesso, l'account, la capacità totale e utilizzata e altro ancora.  Questi bucket possono essere utilizzati come destinazioni per operazioni di backup e ripristino NetApp , di suddivisione in livelli NetApp o di copia e sincronizzazione NetApp .  Inoltre, è possibile utilizzare NetApp Data Classification per analizzare questi bucket.
+
+.Passi
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-aws.html["Installa un agente Console"^]nell'account AWS in cui desideri visualizzare i tuoi bucket Amazon S3.
+. Dal menu NetApp Console, selezionare *Storage* e quindi *Gestione*.
++
+Dopo poco dovresti vedere automaticamente il tuo sistema Amazon S3.
+
+
+
+image:screenshot-amazon-s3-we.png["Uno screenshot di un sistema Amazon S3."]
+
+. Fare clic sul sistema e selezionare un'azione dal riquadro di destra se si desidera abilitare i servizi NetApp Console con lo storage S3.
++
+link:task-s3-enable-data-services.html["Scopri quali servizi NetApp Console sono disponibili e scopri come utilizzarli con i tuoi bucket S3"] .
+
+. Fai clic su *Entra nel sistema S3* oppure fai doppio clic sul sistema per visualizzare i dettagli sui bucket S3 nel tuo account AWS.
++
+Oltre alle colonne visualizzate per impostazione predefinita, è possibile scorrere la pagina per visualizzare ulteriori proprietà del bucket, ad esempio il numero di tag e se sono stati abilitati il blocco degli oggetti o il controllo delle versioni.
+
+
+
+.Cosa c'è dopo?
+È possibile modificare alcune impostazioni del bucket direttamente dalla console NetApp facendo clic suimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] per un secchio. link:task-change-s3-bucket-settings.html["Vai qui per i dettagli"] .
+
+È possibile aggiungere nuovi bucket S3 facendo clic su *Aggiungi bucket*. link:task-add-s3-bucket.html["Vai qui per i dettagli"] .

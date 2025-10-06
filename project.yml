@@ -1,0 +1,39 @@
+---
+settings:
+  name: Amazon S3 storage
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: it-it,us-en,de-de,es-es,fr-fr,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Documentazione sull'archiviazione Amazon S3
+    url: "/index.html"
+  - title: Note di rilascio
+    url: "/whats-new.html"
+  - title: Iniziare
+    entries:
+    - title: Visualizza i tuoi bucket Amazon S3
+      url: "/task-viewing-amazon-s3.html"
+  - title: Gestisci i bucket S3
+    entries:
+    - title: Aggiungi bucket S3
+      url: "/task-add-s3-bucket.html"
+    - title: Modifica le impostazioni del bucket S3
+      url: "/task-change-s3-bucket-settings.html"
+    - title: Utilizzare i servizi dati NetApp con i bucket S3
+      url: "/task-s3-enable-data-services.html"
+  - title: Conoscenza e supporto
+    entries:
+    - title: Registrati per ricevere supporto
+      url: "/task-support-registration.html"
+    - title: Ottieni aiuto
+      url: "/task-get-help.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family
