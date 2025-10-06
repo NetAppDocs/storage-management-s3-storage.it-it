@@ -19,14 +19,14 @@ indexpage:
       url: task-s3-enable-data-services.html
   - title: Ulteriori informazioni
     links:
-    - title: Documentazione di Amazon S3 per la gestione al di fuori della console
-        NetApp
+    - title: Documentazione di Amazon S3 per la gestione al di fuori della NetApp
+        Console
       url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
   - title: Blog e comunità
     links:
-    - title: Console NetApp
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: Servizi dati NetApp
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: Comunità NetApp
       url: https://community.netapp.com/

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-add-s3-bucket.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, netapp console 
-summary: Quando il tuo sistema Amazon S3 è disponibile nella pagina Sistemi, puoi aggiungere altri bucket direttamente dalla console NetApp . 
+summary: Quando il tuo sistema Amazon S3 è disponibile nella pagina Sistemi, puoi aggiungere altri bucket direttamente dalla NetApp Console. 
 ---
 = Aggiungi bucket S3
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Quando il tuo sistema Amazon S3 è disponibile nella pagina Sistemi, pu
 
 
 [role="lead"]
-Quando il sistema Amazon S3 è disponibile nella pagina _Sistemi_, è possibile aggiungere altri bucket direttamente dalla console NetApp .
+Quando il sistema Amazon S3 è disponibile nella pagina _Sistemi_, è possibile aggiungere altri bucket direttamente dalla NetApp Console.
 
 .Passi
 . Dalla pagina _Sistemi_, fare doppio clic sul sistema Amazon S3 per visualizzare la pagina _Panoramica bucket Amazon S3_ e fare clic su *Aggiungi bucket*.
@@ -24,7 +24,7 @@ Viene visualizzata la pagina _Aggiungi bucket_.
 . Nella pagina _Aggiungi bucket_, inserisci le informazioni richieste per creare il bucket e fai clic su *Applica*.
 +
 .. Inserisci il nome che vuoi usare per il bucket.
-.. Seleziona l'account AWS che sarà il proprietario del bucket.  Questo può essere l'account principale in cui è stato distribuito l'agente della console oppure può essere un https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["account diverso che hai aggiunto alla console NetApp"^] .
+.. Seleziona l'account AWS che sarà il proprietario del bucket.  Questo può essere l'account principale in cui è stato distribuito l'agente della console oppure può essere un https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["account diverso che hai aggiunto alla NetApp Console"^] .
 .. Seleziona la regione AWS in cui verrà creato il bucket.
 .. Facoltativamente, è possibile abilitare il blocco degli oggetti S3 sul bucket per archiviare gli oggetti utilizzando un modello WORM (write-once-read-many).  Se si prevede di utilizzare il blocco degli oggetti, è necessario abilitarlo durante la creazione del bucket.  Abilitando Object Lock si abilita anche il controllo delle versioni. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Scopri di più sul blocco degli oggetti dalla documentazione di Amazon S3"^] .
 +

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-change-s3-bucket-settings.html 
 keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
-summary: Quando il sistema Amazon S3 è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà del bucket direttamente dalla console NetApp . 
+summary: Quando il sistema Amazon S3 è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà del bucket direttamente dalla NetApp Console. 
 ---
 = Modifica le impostazioni del bucket S3
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Quando il sistema Amazon S3 è disponibile nella pagina Sistemi, è pos
 
 
 [role="lead"]
-Quando il sistema Amazon S3 è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà del bucket direttamente dalla console NetApp .
+Quando il sistema Amazon S3 è disponibile nella pagina Sistemi, è possibile modificare alcune proprietà del bucket direttamente dalla NetApp Console.
 
 Tieni presente che non puoi modificare il nome del bucket, l'account AWS, la regione o l'impostazione di blocco degli oggetti.
 
@@ -47,7 +47,7 @@ image:screenshot-amazon-s3-versioning.png["Uno screenshot che mostra come modifi
 
 I tag sono metadati che puoi utilizzare per raggruppare le risorse e identificare applicazioni, ambienti, regioni, provider cloud e altro ancora.  I tag sono costituiti da una chiave tag e da un valore tag.  È possibile aggiungere tag a un bucket in modo che vengano applicati agli oggetti quando vengono aggiunti al bucket.  È anche possibile modificare ed eliminare i tag e i valori dei tag.
 
-Per impostazione predefinita, i tag sono disabilitati nei nuovi bucket creati dalla console NetApp . https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Scopri di più sul tagging dalla documentazione di Amazon S3"^] .
+Per impostazione predefinita, i tag sono disabilitati nei nuovi bucket creati dalla NetApp Console. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Scopri di più sul tagging dalla documentazione di Amazon S3"^] .
 
 image:screenshot-amazon-s3-tags.png["Uno screenshot che mostra come aggiungere una nuova coppia chiave/valore tag per un bucket."]
 
@@ -59,7 +59,7 @@ Dopo aver aggiunto un tag, fare clic su *Applica* per salvare le modifiche.  Se 
 
 La crittografia lato server consente di crittografare i dati nella destinazione Amazon S3.  Amazon S3 crittografa i tuoi dati a livello di oggetto quando li scrive sul disco e li decrittografa quando vi accedi.  È possibile modificare l'impostazione di crittografia utilizzata per gli oggetti futuri quando vengono aggiunti al bucket.
 
-La crittografia è abilitata per impostazione predefinita utilizzando "Chiavi gestite Amazon S3 (SSE-S3)" nei nuovi bucket creati dalla console NetApp . https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Scopri di più sulla crittografia lato server dalla documentazione di Amazon S3"^] .
+La crittografia è abilitata per impostazione predefinita utilizzando "Chiavi gestite Amazon S3 (SSE-S3)" nei nuovi bucket creati dalla NetApp Console. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Scopri di più sulla crittografia lato server dalla documentazione di Amazon S3"^] .
 
 In alternativa, puoi scegliere di abilitare la crittografia utilizzando la "chiave AWS Key Management Service (SSE-KMS)".  È possibile crittografare anche utilizzando le chiavi fornite dal cliente (SSE-C), ma questa funzionalità non è disponibile tramite l'interfaccia utente della console: è necessario utilizzare l'interfaccia di Amazon.
 

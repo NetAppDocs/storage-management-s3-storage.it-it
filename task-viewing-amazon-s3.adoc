@@ -20,7 +20,7 @@ Puoi visualizzare i dettagli sui tuoi bucket S3, tra cui la regione, i criteri d
 
 .Passi
 . https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-aws.html["Installa un agente Console"^]nell'account AWS in cui desideri visualizzare i tuoi bucket Amazon S3.
-. Dal menu NetApp Console, selezionare *Storage* e quindi *Gestione*.
+. Dal menu NetApp Console , selezionare *Storage* e quindi *Gestione*.
 +
 Dopo poco dovresti vedere automaticamente il tuo sistema Amazon S3.
 
@@ -39,6 +39,6 @@ Oltre alle colonne visualizzate per impostazione predefinita, è possibile scorr
 
 
 .Cosa c'è dopo?
-È possibile modificare alcune impostazioni del bucket direttamente dalla console NetApp facendo clic suimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] per un secchio. link:task-change-s3-bucket-settings.html["Vai qui per i dettagli"] .
+È possibile modificare alcune impostazioni del bucket direttamente dalla NetApp Console facendo clic suimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] per un secchio. link:task-change-s3-bucket-settings.html["Vai qui per i dettagli"] .
 
 È possibile aggiungere nuovi bucket S3 facendo clic su *Aggiungi bucket*. link:task-add-s3-bucket.html["Vai qui per i dettagli"] .
