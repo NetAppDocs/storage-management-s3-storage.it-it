@@ -180,7 +180,6 @@
   <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">Utilizza * NetApp Data Classification* per analizzare i tuoi bucket S3 alla ricerca di dati personali e sensibili.  NetApp Data Classification può analizzare qualsiasi bucket nell'account, indipendentemente dal fatto che sia stato creato per una soluzione NetApp .</block>
   <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">Per iniziare, seleziona il tuo sistema Amazon S3 e seleziona l'opzione appropriata dalla sezione *Classificazione* del pannello Servizi per avviare la scansione dei tuoi bucket S3.</block>
   <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">Scopri di più sul servizio NetApp Data Classification</block>
-  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> .</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">Prima di poter aprire un caso di supporto con il supporto tecnico NetApp , è necessario aggiungere un account NetApp Support Site alla NetApp Console e quindi registrarsi per ricevere supporto.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registrati per ricevere supporto</block>
   <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">Dopo aver installato un agente Console in AWS, NetApp Console può rilevare automaticamente informazioni sui bucket Amazon S3 che risiedono nell'account AWS in cui è installato l'agente Console.  Un sistema Amazon S3 viene aggiunto alla pagina Sistemi, così puoi visualizzare queste informazioni.</block>
@@ -219,4 +218,5 @@
   <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Documentazione sull'archiviazione Amazon S3</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conoscenza e supporto</block>
+  <block id="38e4a6ea124be3ae85f0c5c913bd80a7" category="paragraph"><block ref="b2391610bf85b5dbfe9880f4b5f5c77d" category="inline-link-rx"></block>.</block>
 </blocks>
